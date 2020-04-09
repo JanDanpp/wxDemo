@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/auth/auth",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundColor": "#EDEDED",
+    "backgroundColorTop": "#EDEDED",
+    "backgroundColorBottom": "#EDEDED",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "navigationBarTitleText": "小程序模版",
+    "navigationBarTextStyle": "black"
+
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#b4282d",
+    "color": "#666",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/assets/images/tabbar/home.png",
+      "selectedIconPath": "/assets/images/tabbar/home_on.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "练习",
+      "iconPath": "/assets/images/tabbar/signup.png",
+      "selectedIconPath": "/assets/images/tabbar/signup_on.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "/assets/images/tabbar/discover.png",
+      "selectedIconPath": "/assets/images/tabbar/discover_on.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "报名",
+      "iconPath": "/assets/images/tabbar/practise.png",
+      "selectedIconPath": "/assets/images/tabbar/practise_on.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "我的",
+      "iconPath": "/assets/images/tabbar/me.png",
+      "selectedIconPath": "/assets/images/tabbar/me_on.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

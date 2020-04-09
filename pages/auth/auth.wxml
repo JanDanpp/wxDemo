@@ -1,0 +1,15 @@
+<!--pages/main.wxml-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+	<view class="modal-title">微信授权</view>
+	<view class="modal-content">
+		<view class='modal-logo'>
+			<image src='./../../images/tb/images/sys/ic_auth.png' class='modal-logo-img'></image>
+		</view>
+		<view class='modal-c1'>需要微信授权后才能使用</view>
+		<view class='modal-c2'>请提出您宝贵的意见</view>
+	</view>
+	<view class="modal-footer">
+		<button wx:if="{{canIUse}}" class="btn-confirm" bindgetuserinfo='getUserInfo' open-type='getUserInfo'>前往授权</button>
+	</view>
+</view>

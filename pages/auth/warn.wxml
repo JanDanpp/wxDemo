@@ -1,0 +1,9 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">用户未授权</view>
+    <view class="page__desc">如需正常使用小程序，请退出后重新进入小程序或者点击下方的 “重新授权” 按钮，即可正常使用</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="primary" bindtap="bindToAuthPage">重新授权</button>
+  </view>
+</view>

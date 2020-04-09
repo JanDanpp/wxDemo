@@ -1,0 +1,113 @@
+/* pages/main.wxss */
+
+.show-btn {
+  margin-top: 100rpx;
+  color: #2c2;
+}
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+
+.modal-dialog {
+  width: 540rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 42%;
+  left: 0;
+  z-index: 9999;
+  background: #fff;
+  margin: -180rpx 105rpx;
+  border-radius: 8rpx;
+}
+
+.modal-title {
+  padding-top: 40rpx;
+  font-size: 20px;
+  color: #1296db;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-content {
+  padding: 23rpx;
+}
+
+.modal-input {
+  display: flex;
+  background: #fff;
+  border: 2rpx solid #ddd;
+  border-radius: 4rpx;
+  font-size: 28rpx;
+}
+
+.input {
+  width: 100%;
+  height: 82rpx;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  color: #333;
+}
+
+input-holder {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 110rpx;
+  border-top: 1px solid #dedede;
+  font-size: 36rpx;
+  line-height: 110rpx;
+}
+
+.btn-cancel {
+  width: 50%;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #dedede;
+}
+
+.btn-confirm {
+  width: 100%;
+  color: #2c2;
+  text-align: center;
+  background: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.modal-c1 {
+  margin-top: 20rpx;
+  text-align: center;
+  color:#d4237a;
+}
+
+.modal-c2 {
+  font-size: 34rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  color: rgb(202, 198, 198);
+}
+
+.modal-logo {
+  text-align: center;
+}
+
+.modal-logo-img {
+  width: 92rpx;
+  height: 82rpx;
+}
