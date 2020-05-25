@@ -1,51 +1,55 @@
 {
   "pages": [
-    "pages/about/about",
-    "pages/auth/auth",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/servicea/servi/servi",
+    "pages/index/affiche/affiche",
+    "pages/auth/auth",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/servicea/servicea",
+    "pages/community/community",
+    "pages/about/user/user"
   ],
   "window": {
     "backgroundColor": "#EDEDED",
     "backgroundColorTop": "#EDEDED",
     "backgroundColorBottom": "#EDEDED",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#EDEDED",
-    "navigationBarTitleText": "小程序模版",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "社区服务小程序",
     "navigationBarTextStyle": "black"
-
   },
   "tabBar": {
     "backgroundColor": "#fafafa",
     "borderStyle": "white",
     "selectedColor": "#b4282d",
     "color": "#666",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "/assets/images/tabbar/home.png",
-      "selectedIconPath": "/assets/images/tabbar/home_on.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "练习",
-      "iconPath": "/assets/images/tabbar/signup.png",
-      "selectedIconPath": "/assets/images/tabbar/signup_on.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "发现",
-      "iconPath": "/assets/images/tabbar/discover.png",
-      "selectedIconPath": "/assets/images/tabbar/discover_on.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "报名",
-      "iconPath": "/assets/images/tabbar/practise.png",
-      "selectedIconPath": "/assets/images/tabbar/practise_on.png"
-    },{
-      "pagePath": "pages/about/about",
-      "text": "我的",
-      "iconPath": "/assets/images/tabbar/me.png",
-      "selectedIconPath": "/assets/images/tabbar/me_on.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/images/tabbar/home.png",
+        "selectedIconPath": "/assets/images/tabbar/home_on.png"
+      },
+      {
+        "pagePath": "pages/servicea/servicea",
+        "text": "友邻服务",
+        "iconPath": "/assets/images/tabbar/signup.png",
+        "selectedIconPath": "/assets/images/tabbar/signup_on.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "/assets/images/tabbar/discover.png",
+        "selectedIconPath": "/assets/images/tabbar/discover_on.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "/assets/images/tabbar/me.png",
+        "selectedIconPath": "/assets/images/tabbar/me_on.png"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,

@@ -7,7 +7,15 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="page__bd">
+  <view class="weui-cells">
+			<view class="weui-cell weui-cell_active weui-cell_access" bindtap="gouser">
+				<view class="weui-cell__bd" >
+					<text style="vertical-align: middle;">个人信息</text>
+					<text class="weui-badge" style="margin-left: 5px;"></text>
+				</view>
+				<view class="weui-cell__ft"></view>
+			</view>
+		</view>
   </view>
 </view>
